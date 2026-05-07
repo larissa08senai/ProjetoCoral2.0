@@ -30,7 +30,7 @@ export default function Home() {
             Descubra o sabor do mar com a Coral Food!
           </h1>
           <p className="legenda">
-            Descubra os sabores do ocenao no coração da cidade. Marisco fresco, pratos autênticos e uma experiência única
+            Descubra os sabores do ocenao no coração da cidade. <br /> Marisco fresco, pratos autênticos e uma experiência única
           </p>
         </div>
         <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
@@ -42,12 +42,12 @@ export default function Home() {
           >
             <Image
               className="dark:invert"
-              src="/vercel.svg"
+              src="/iconFish.png"
               alt="Vercel logomark"
               width={16}
               height={16}
             />
-            Deploy Now
+            Cardápio
           </a>
           <a
             className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
@@ -55,9 +55,10 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Documentation
+            Fazer reserva
           </a>
         </div>
+        <div className=""></div>
       </main>
     </div>
   );
