@@ -22,6 +22,18 @@ export default function Menu() {
                     </nav>
                 </div>
                 <hr />
+                <div className="pratos">
+                    <ul className="pratos-lista">
+                        <Link href="/entradas">Entradas</Link>
+                        <Link href="/grelhados">Grelhados</Link>
+                        <Link href="/mar">Frutos do Mar</Link>
+                        <Link href="/massas">Massas</Link>
+                        <Link href="/risotos">Risotos</Link>
+                        <Link href="/saladas">Saladas</Link>
+                        <Link href="/sobremesas">Sobremesas</Link>
+                        <Link href="/sopas">Sopas</Link>
+                    </ul>
+                </div>
             </main>
         </div>
     )
